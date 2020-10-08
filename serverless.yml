@@ -2,11 +2,11 @@ service: my-serverless-app
 
 provider:
  name: aws
- runtime: nodejs6.10
+ runtime: nodejs12.x
  memorySize: 128
- timeout: 10
+ timeout: 30
  stage: production
- region: eu-central-1
+ region: ap-south-1
 
 functions:
  api:
